@@ -3,7 +3,7 @@ cask "devlog" do
   name "devlog"
   desc "Local development log broker"
   homepage "https://github.com/foestauf/devlog"
-  version "0.1.0"
+  version "0.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "devlog" do
   on_macos do
     on_intel do
       url "https://github.com/foestauf/devlog/releases/download/v#{version}/devlog_#{version}_darwin_amd64.tar.gz"
-      sha256 "4c42316595ce1c9f191d73e87846936068eb4bd46ffa0777843b3ead62a71052"
+      sha256 "0f54622816ffdae97a092b15bedf84d3cb2780046a3f0d530daf34c993ad03dd"
     end
     on_arm do
       url "https://github.com/foestauf/devlog/releases/download/v#{version}/devlog_#{version}_darwin_arm64.tar.gz"
-      sha256 "7e216b3247ce7ec9188c6c28a4e82b008d6e5384779ec47dd4c8ace49bd47554"
+      sha256 "9b510aa486a11e0991d55cc3ff40cf14018d01ad0fe7ec04b7cfd0c4c13c1e29"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/foestauf/devlog/releases/download/v#{version}/devlog_#{version}_linux_amd64.tar.gz"
-      sha256 "eb6866309500ad3305704153ea68bb349141fe9f59025a4f6d9776411194695f"
+      sha256 "f7022c36526342f351939431176cd603cb0778e7d8bbe77662867c20cb012ca0"
     end
     on_arm do
       url "https://github.com/foestauf/devlog/releases/download/v#{version}/devlog_#{version}_linux_arm64.tar.gz"
-      sha256 "a3ec3c1e34a66c23fed62ee230bd42eb592635f79af6dfe5b3740ad52ab02984"
+      sha256 "302fcf074f32b5de6ce5ea81b843c9fead21eb63eac044cd4c87f3722e09f7ac"
     end
   end
 
