@@ -14,22 +14,22 @@ cask "devlog" do
   on_macos do
     on_intel do
       url "https://github.com/foestauf/devlog/releases/download/v#{version}/devlog_#{version}_darwin_amd64.tar.gz"
-      sha256 "0f54622816ffdae97a092b15bedf84d3cb2780046a3f0d530daf34c993ad03dd"
+      sha256 "4c9fed8490c64d8268df7aa4dfe9963338e24b629e0f1493371435061fff2f17"
     end
     on_arm do
       url "https://github.com/foestauf/devlog/releases/download/v#{version}/devlog_#{version}_darwin_arm64.tar.gz"
-      sha256 "9b510aa486a11e0991d55cc3ff40cf14018d01ad0fe7ec04b7cfd0c4c13c1e29"
+      sha256 "d3fffeb113454fd90ad44ab148a741f1880ea6e11726e8450b42471728aa3ddc"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/foestauf/devlog/releases/download/v#{version}/devlog_#{version}_linux_amd64.tar.gz"
-      sha256 "f7022c36526342f351939431176cd603cb0778e7d8bbe77662867c20cb012ca0"
+      sha256 "2f324368bf4851536671386748212d5bea086770eff55386322352349343d82d"
     end
     on_arm do
       url "https://github.com/foestauf/devlog/releases/download/v#{version}/devlog_#{version}_linux_arm64.tar.gz"
-      sha256 "302fcf074f32b5de6ce5ea81b843c9fead21eb63eac044cd4c87f3722e09f7ac"
+      sha256 "b7907bea29e16d1b99ca2e3c3e9f8b5413f7e6c375417e7a0adff0cf9e3a1b0c"
     end
   end
 
